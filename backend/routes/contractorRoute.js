@@ -1,5 +1,5 @@
 import express from 'express';
-import { loginContractor, appointmentsContractor, appointmentCancel, contractorList, changeAvailablity, appointmentComplete, contractorDashboard, contractorProfile, updateContractorProfile } from '../controllers/contractorController.js';
+import { loginContractor, appointmentsContractor, appointmentCancel, contractorList, changeAvailablity, appointmentComplete, contractorDashboard, contractorProfile, updateContractorProfile } from '../controllers/ContractorController.js';
 import authContractor from '../middleware/authContractor.js';
 const contractorRouter = express.Router();
 
