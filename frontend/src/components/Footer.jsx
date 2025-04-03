@@ -8,7 +8,7 @@ const Footer = () => {
 
         <div>
           <img className='mb-5 w-40' src={assets.localhirelogo} alt="" />
-          <p className='w-full md:w-2/3 text-gray-600 leading-6'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          <p className='w-full md:w-2/3 text-gray-600 leading-6'>LocalHire: A Web-based Platform for Streamlining Access to Local Essential Services. LocalHire is an e-commerce platform designed to connect users with verified service providers in their area, offering a seamless booking experience. The platform allows customers to browse various service categories, compare professionals based on ratings and reviews, and schedule appointments at their convenience. Additionally, it provides service providers with an efficient way to manage bookings, enhance their visibility, and expand their customer base.</p>
         </div>
 
         <div>
