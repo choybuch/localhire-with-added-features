@@ -14,6 +14,7 @@ import Login from './pages/Login';
 import ContractorAppointments from './pages/Contractor/ContractorAppointments';
 import ContractorDashboard from './pages/Contractor/ContractorDashboard';
 import ContractorProfile from './pages/Contractor/ContractorProfile';
+import SubscriptionPage from './pages/Contractor/SubscriptionPage';
 
 const App = () => {
 
@@ -35,6 +36,7 @@ const App = () => {
           <Route path='/contractor-dashboard' element={<ContractorDashboard />} />
           <Route path='/contractor-appointments' element={<ContractorAppointments />} />
           <Route path='/contractor-profile' element={<ContractorProfile />} />
+          <Route path='/subscription' element={<SubscriptionPage />} /> 
         </Routes>
       </div>
     </div>
