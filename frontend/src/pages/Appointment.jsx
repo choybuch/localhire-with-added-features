@@ -137,8 +137,8 @@ const Appointment = () => {
                         {conInfo.name}
                     </p>
                     <p className='text-gray-600 text-sm mt-2'>{conInfo.degree} - {conInfo.speciality}</p>
-                    <p className='text-gray-600 mt-3'>{conInfo.about}</p>
-                    <p className='text-gray-600 font-medium mt-4'>Appointment fee: <span className='text-gray-800'>{currencySymbol}{conInfo.fees}</span> </p>
+                    <p className='text-gray-600 mt-3 whitespace-pre-line'>{conInfo.about}</p>
+                    <p className='text-gray-600 font-medium mt-4'>Appointment fee: <span className='text-gray-800'>₱{conInfo.fees}</span></p>
                 </div>
             </div>
 
